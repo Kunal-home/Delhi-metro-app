@@ -1,0 +1,537 @@
+{
+  "lines": [
+    {
+      "name": "Red Line",
+      "route": "Shaheed Sthal (New Bus Adda) ←→ Rithala",
+      "linecolor":"red",
+     "station": [
+        { "name": "Shaheed Sthal (New Bus Adda)", "connections": ["Hindon River"], "index": 1 },
+        { "name": "Hindon River", "connections": ["Shaheed Sthal (New Bus Adda)", "Arthala"], "index": 2 },
+        { "name": "Arthala", "connections": ["Hindon River", "Mohan Nagar"], "index": 3 },
+        { "name": "Mohan Nagar", "connections": ["Arthala", "Shyam Park"], "index": 4 },
+        { "name": "Shyam Park", "connections": ["Mohan Nagar", "Major Mohit Sharma Rajendra Nagar"], "index": 5 },
+        { "name": "Major Mohit Sharma Rajendra Nagar", "connections": ["Shyam Park", "Raj Bagh"], "index": 6 },
+        { "name": "Raj Bagh", "connections": ["Major Mohit Sharma Rajendra Nagar", "Shaheed Nagar"], "index": 7 },
+        { "name": "Shaheed Nagar", "connections": ["Raj Bagh", "Dilshad Garden"], "index": 8 },
+        { "name": "Dilshad Garden", "connections": ["Shaheed Nagar", "Jhilmil"], "index": 9 },
+        { "name": "Jhilmil", "connections": ["Dilshad Garden", "Mansarovar Park"], "index": 10 },
+        { "name": "Mansarovar Park", "connections": ["Jhilmil", "Shahdara"], "index": 11 },
+        { "name": "Shahdara", "connections": ["Mansarovar Park", "Welcome"], "index": 12 },
+        { "name": "Welcome", "connections": ["Shahdara", "Seelampur"], "interchange": ["Pink Line"], "index": 13 },
+        { "name": "Seelampur", "connections": ["Welcome", "Shastri Park"], "index": 14 },
+        { "name": "Shastri Park", "connections": ["Seelampur", "Kashmere Gate"], "index": 15 },
+        { "name": "Kashmere Gate", "connections": ["Shastri Park", "Tis Hazari"], "interchange": ["Yellow Line", "Violet Line"], "index": 16 },
+        { "name": "Tis Hazari", "connections": ["Kashmere Gate", "Pulbangash"], "index": 17 },
+        { "name": "Pul Bangash", "connections": ["Tis Hazari", "Pratap Nagar"], "index": 18 },
+        { "name": "Pratap Nagar", "connections": ["Pulbangash", "Shastri Nagar"], "index": 19 },
+        { "name": "Shastri Nagar", "connections": ["Pratap Nagar", "Inderlok"], "index": 20 },
+        { "name": "Inderlok", "connections": ["Shastri Nagar", "Kanhaiya Nagar"], "interchange": ["Green Line"], "index": 21 },
+        { "name": "Kanhaiya Nagar", "connections": ["Inderlok", "Keshav Puram"], "index": 22 },
+        { "name": "Keshav Puram", "connections": ["Kanhaiya Nagar", "Netaji Subhash Place"], "index": 23 },
+        { "name": "Netaji Subhash Place", "connections": ["Keshav Puram", "Kohat Enclave"], "interchange": ["Pink Line"], "index": 24 },
+        { "name": "Kohat Enclave", "connections": ["Netaji Subhash Place", "Pitampura"], "index": 25 },
+        { "name": "Pitampura", "connections": ["Kohat Enclave", "Rohini East"], "index": 26 },
+        { "name": "Rohini East", "connections": ["Pitampura", "Rohini West"], "index": 27 },
+        { "name": "Rohini West", "connections": ["Rohini East", "Rithala"], "index": 28 },
+        { "name": "Rithala", "connections": ["Rohini West"], "index": 29 }
+      ],
+    "interchange": [
+        { "station": "Welcome", "lines": ["Pink Line"] },
+        { "station": "Kashmere Gate", "lines": ["Yellow Line", "Violet Line"] },
+        { "station": "Inderlok", "lines": ["Green Line"] },
+        { "station": "Netaji Subhash Place", "lines": ["Pink Line"] }
+      ]
+     
+      
+    },
+    {
+      "name": "Yellow Line",
+      "route": "Samaypur Badli ←→ Millennium City Centre Gurugram",
+      "linecolor":"yellow",
+     "station": [
+        { "name": "Samaypur Badli", "connections": ["Rohini Sector  18, 19"], "index": 1 },
+        { "name": "Rohini Sector  18, 19", "connections": ["Samaypur Badli", "Haiderpur Badli Mor"], "index": 2 },
+        { "name": "Haiderpur Badli Mor", "connections": ["Rohini Sector  18, 19", "Jahangirpuri"], "index": 3 },
+        { "name": "Jahangirpuri", "connections": ["Haiderpur Badli Mor", "Adarsh Nagar"], "index": 4 },
+        { "name": "Adarsh Nagar", "connections": ["Jahangirpuri", "Azadpur"], "index": 5 },
+        { "name": "Azadpur", "connections": ["Adarsh Nagar", "Model Town"], "interchange": ["Pink Line"], "index": 6 },
+        { "name": "Model Town", "connections": ["Azadpur", "Guru Teg Bahadur Nagar"], "index": 7 },
+        { "name": "Guru Teg Bahadur Nagar", "connections": ["Model Town", "Viswavidyalaya"], "index": 8 },
+        { "name": "Viswavidyalaya", "connections": ["Guru Teg Bahadur Nagar", "Vidhan Sabha"], "index": 9 },
+        { "name": "Vidhan Sabha", "connections": ["Viswavidyalaya", "Civil Lines"], "index": 10 },
+        { "name": "Civil Lines", "connections": ["Vidhan Sabha", "Kashmere Gate"], "index": 11 },
+        { "name": "Kashmere Gate", "connections": ["Civil Lines", "Chandni Chowk"], "interchange": ["Red Line", "Violet Line"], "index": 12 },
+        { "name": "Chandni Chowk", "connections": ["Kashmere Gate", "Chawri Bazar"], "index": 13 },
+        { "name": "Chawri Bazar", "connections": ["Chandni Chowk", "New Delhi"], "index": 14 },
+        { "name": "New Delhi", "connections": ["Chawri Bazar", "Rajiv Chowk"], "interchange": ["Airport Express"], "index": 15 },
+        { "name": "Rajiv Chowk", "connections": ["New Delhi", "Patel Chowk"], "interchange": ["Blue Line"], "index": 16 },
+        { "name": "Patel Chowk", "connections": ["Rajiv Chowk", "Central Secretariat"], "index": 17 },
+        { "name": "Central Secretariat", "connections": ["Patel Chowk", "Udyog Bhawan"], "interchange": ["Violet Line"], "index": 18 },
+        { "name": "Udyog Bhawan", "connections": ["Central Secretariat", "Lok Kalyan Marg"], "index": 19 },
+        { "name": "Lok Kalyan Marg", "connections": ["Udyog Bhawan", "Jor Bagh"], "index": 20 },
+        { "name": "Jor Bagh", "connections": ["Lok Kalyan Marg", "Dilli Haat  INA"], "index": 21 },
+        { "name": "Dilli Haat  INA", "connections": ["Jor Bagh", "AIIMS"], "interchange": ["Pink Line"], "index": 22 },
+        { "name": "AIIMS", "connections": ["Dilli Haat  INA", "Green Park"], "index": 23 },
+        { "name": "Green Park", "connections": ["AIIMS", "Hauz Khas"], "index": 24 },
+        { "name": "Hauz Khas", "connections": ["Green Park", "Malviya Nagar"], "interchange": ["Magenta Line"], "index": 25 },
+        { "name": "Malviya Nagar", "connections": ["Hauz Khas", "Saket"], "index": 26 },
+        { "name": "Saket", "connections": ["Malviya Nagar", "Qutab Minar"], "index": 27 },
+        { "name": "Qutab Minar", "connections": ["Saket", "Chhatarpur"], "index": 28 },
+        { "name": "Chhatarpur", "connections": ["Qutab Minar", "Sultanpur"], "index": 29 },
+        { "name": "Sultanpur", "connections": ["Chhatarpur", "Ghitorni"], "index": 30 },
+        { "name": "Ghitorni", "connections": ["Sultanpur", "Arjan Garh"], "index": 31 },
+        { "name": "Arjan Garh", "connections": ["Ghitorni", "Guru Dronacharya"], "index": 32 },
+        { "name": "Guru Dronacharya", "connections": ["Arjan Garh", "Sikanderpur"], "index": 33 },
+        { "name": "Sikanderpur", "connections": ["Guru Dronacharya", "M.G. Road"], "interchange": ["Rapid Metro"], "index": 34 },
+        { "name": "M.G. Road", "connections": ["Sikanderpur", "IFFCO Chowk"], "index": 35 },
+        { "name": "IFFCO Chowk", "connections": ["M.G. Road", "Millennium City Centre Gurugram"], "index": 36 },
+        { "name": "Millennium City Centre Gurugram", "connections": ["IFFCO Chowk"], "index": 37 }
+      ],
+    "interchange": [
+        { "station": "Azadpur", "lines": ["Pink Line"] },
+        { "station": "Kashmere Gate", "lines": ["Red Line", "Violet Line"] },
+        { "station": "New Delhi", "lines": ["Airport Express"] },
+        { "station": "Rajiv Chowk", "lines": ["Blue Line"] },
+        { "station": "Central Secretariat", "lines": ["Violet Line"] },
+        { "station": "Dilli Haat  INA", "lines": ["Pink Line"] },
+        { "station": "Hauz Khas", "lines": ["Magenta Line"] },
+        { "station": "Sikanderpur", "lines": ["Rapid Metro"] }
+      ]
+     
+    },
+    {
+      "name": "Blue Line",
+      "route": "Dwarka Sector  21 ←→ Noida Electronic City",
+      "linecolor":"blue",
+     "station": [
+        { "name": "Dwarka Sector  21", "connections": ["Dwarka Sector  8", "Dwarka Sector  9"], "index": 1 },
+        { "name": "Dwarka Sector  8", "connections": ["Dwarka Sector  21", "Dwarka Sector  9"], "index": 2 },
+        { "name": "Dwarka Sector  9", "connections": ["Dwarka Sector  8", "Dwarka Sector  10"], "index": 3 },
+        { "name": "Dwarka Sector  10", "connections": ["Dwarka Sector  9", "Dwarka Sector  11"], "index": 4 },
+        { "name": "Dwarka Sector  11", "connections": ["Dwarka Sector  10", "Dwarka Sector  12"], "index": 5 },
+        { "name": "Dwarka Sector  12", "connections": ["Dwarka Sector  11", "Dwarka Sector  13"], "index": 6 },
+        { "name": "Dwarka Sector  13", "connections": ["Dwarka Sector  12", "Dwarka Sector  14"], "index": 7 },
+        { "name": "Dwarka Sector  14", "connections": ["Dwarka Sector  13", "Dwarka"], "index": 8 },
+        { "name": "Dwarka", "connections": ["Dwarka Sector  14", "Dwarka Mor"], "index": 9 },
+        { "name": "Dwarka Mor", "connections": ["Dwarka", "Nawada"], "index": 10 },
+        { "name": "Nawada", "connections": ["Dwarka Mor", "Uttam Nagar West"], "index": 11 },
+        { "name": "Uttam Nagar West", "connections": ["Nawada", "Uttam Nagar East"], "index": 12 },
+        { "name": "Uttam Nagar East", "connections": ["Uttam Nagar West", "Janak Puri West"], "index": 13 },
+        { "name": "Janak Puri West", "connections": ["Uttam Nagar East", "Janak Puri East"], "index": 14 },
+        { "name": "Janak Puri East", "connections": ["Janak Puri West", "Tilak Nagar"], "index": 15 },
+        { "name": "Tilak Nagar", "connections": ["Janak Puri East", "Subhash Nagar"], "index": 16 },
+        { "name": "Subhash Nagar", "connections": ["Tilak Nagar", "Tagore Garden"], "index": 17 },
+        { "name": "Tagore Garden", "connections": ["Subhash Nagar", "Rajouri Garden"], "index": 18 },
+        { "name": "Rajouri Garden", "connections": ["Tagore Garden", "Ramesh Nagar"], "index": 19 },
+        { "name": "Ramesh Nagar", "connections": ["Rajouri Garden", "Moti Nagar"], "index": 20 },
+        { "name": "Moti Nagar", "connections": ["Ramesh Nagar", "Kirti Nagar"], "index": 21 },
+        { "name": "Kirti Nagar", "connections": ["Moti Nagar", "Shadipur"], "index": 22 },
+        { "name": "Shadipur", "connections": ["Kirti Nagar", "Patel Nagar"], "index": 23 },
+        { "name": "Patel Nagar", "connections": ["Shadipur", "Rajendra Place"], "index": 24 },
+        { "name": "Rajendra Place", "connections": ["Patel Nagar", "Karol Bagh"], "index": 25 },
+        { "name": "Karol Bagh", "connections": ["Rajendra Place", "Jhandewalan"], "index": 26 },
+        { "name": "Jhandewalan", "connections": ["Karol Bagh", "Ramakrishna Ashram Marg"], "index": 27 },
+        { "name": "Ramakrishna Ashram Marg", "connections": ["Jhandewalan", "Rajiv Chowk"], "index": 28 },
+        { "name": "Rajiv Chowk", "connections": ["Ramakrishna Ashram Marg", "Barakhamba Road"], "index": 29 },
+        { "name": "Barakhamba Road", "connections": ["Rajiv Chowk", "Mandi House"], "index": 30 },
+        { "name": "Mandi House", "connections": ["Barakhamba Road", "Supreme Court"], "index": 31 },
+        { "name": "Supreme Court", "connections": ["Mandi House", "Indraprastha"], "index": 32 },
+        { "name": "Indraprastha", "connections": ["Supreme Court", "Yamuna Bank"], "index": 33 },
+        { "name": "Yamuna Bank", "connections": ["Indraprastha", "Akshardham"], "index": 34 },
+        { "name": "Akshardham", "connections": ["Yamuna Bank", "Mayur Vihar  I"], "index": 35 },
+        { "name": "Mayur Vihar  I", "connections": ["Akshardham", "Mayur Vihar Extension"], "index": 36 },
+        { "name": "Mayur Vihar Extension", "connections": ["Mayur Vihar  I", "New Ashok Nagar"], "index": 37 },
+        { "name": "New Ashok Nagar", "connections": ["Mayur Vihar Extension", "Noida Sector-15"], "index": 38 },
+        { "name": "Noida Sector-15", "connections": ["New Ashok Nagar", "Noida Sector-16"], "index": 39 },
+        { "name": "Noida Sector-16", "connections": ["Noida Sector-15", "Noida Sector-18"], "index": 40 },
+        { "name": "Noida Sector-18", "connections": ["Noida Sector-16", "Botanical Garden"], "index": 41 },
+        { "name": "Botanical Garden", "connections": ["Noida Sector-18", "Golf Course"], "index": 42 },
+        { "name": "Golf Course", "connections": ["Botanical Garden", "Noida City Centre"], "index": 43 },
+        { "name": "Noida City Centre", "connections": ["Golf Course", "Sector  34 Noida"], "index": 44 },
+        { "name": "Sector  34 Noida", "connections": ["Noida City Centre", "Sector  52 Noida"], "index": 45 },
+        { "name": "Sector  52 Noida", "connections": ["Sector  34 Noida", "Sector  61 Noida"], "index": 46 },
+        { "name": "Sector  61 Noida", "connections": ["Sector  52 Noida", "Sector  59 Noida"], "index": 47 },
+        { "name": "Sector  59 Noida", "connections": ["Sector  61 Noida", "Sector  62 Noida"], "index": 48 },
+        { "name": "Sector  62 Noida", "connections": ["Sector  59 Noida", "Noida Electronic City"], "index": 49 },
+        { "name": "Noida Electronic City", "connections": ["Sector  62 Noida"], "index": 50 }
+      ],
+    "interchange": [
+        { "station": "Dwarka Sector  21", "lines": ["Airport Express"] },
+        { "station": "Dwarka", "lines": ["Grey Line"] },
+        { "station": "Janak Puri West", "lines": ["Magenta Line"] },
+        { "station": "Rajouri Garden", "lines": ["Pink Line"] },
+        { "station": "Kirti Nagar", "lines": ["Green Line"] },
+        { "station": "Rajiv Chowk", "lines": ["Yellow Line"] },
+        { "station": "Mandi House", "lines": ["Violet Line"] },
+        { "station": "Yamuna Bank", "lines": ["Blue Line", "Vaishali"] },
+        { "station": "Mayur Vihar  I", "lines": ["Pink Line"] },
+        { "station": "Botanical Garden", "lines": ["Magenta Line"] }
+      ]
+    },
+     {
+      "name": "Blue Line",
+      "route": "Dwarka Sector  21 ←→ Vaishali",
+      "linecolor":"blue",
+     "station": [
+        { "name": "Dwarka Sector  21 / द्वारका सेक्टर  21", "connections": ["Dwarka Sector  8", "Airport Express"], "index": 1 },
+        { "name": "Dwarka Sector  8 / द्वारका सेक्टर  8", "connections": ["Dwarka Sector  21", "Dwarka Sector  9"], "index": 2 },
+        { "name": "Dwarka Sector  9 / द्वारका सेक्टर  9", "connections": ["Dwarka Sector  8", "Dwarka Sector  10"], "index": 3 },
+        { "name": "Dwarka Sector  10 / द्वारका सेक्टर  10", "connections": ["Dwarka Sector  9", "Dwarka Sector  11"], "index": 4 },
+        { "name": "Dwarka Sector  11 / द्वारका सेक्टर  11", "connections": ["Dwarka Sector  10", "Dwarka Sector  12"], "index": 5 },
+        { "name": "Dwarka Sector  12 / द्वारका सेक्टर  12", "connections": ["Dwarka Sector  11", "Dwarka Sector  13"], "index": 6 },
+        { "name": "Dwarka Sector  13 / द्वारका सेक्टर  13", "connections": ["Dwarka Sector  12", "Dwarka Sector  14"], "index": 7 },
+        { "name": "Dwarka Sector  14 / द्वारका सेक्टर  14", "connections": ["Dwarka Sector  13", "Dwarka"], "index": 8 },
+        { "name": "Dwarka / द्वारका", "connections": ["Dwarka Sector  14", "Dwarka Mor"], "index": 9 },
+        { "name": "Dwarka Mor / द्वारका मोर", "connections": ["Dwarka", "Nawada"], "index": 10 },
+        { "name": "Nawada / नवादा", "connections": ["Dwarka Mor", "Uttam Nagar West"], "index": 11 },
+        { "name": "Uttam Nagar West / उत्तम नगर पश्चिम", "connections": ["Nawada", "Uttam Nagar East"], "index": 12 },
+        { "name": "Uttam Nagar East / उत्तम नगर पूर्व", "connections": ["Uttam Nagar West", "Janak Puri West"], "index": 13 },
+        { "name": "Janak Puri West / जनकपुरी पश्चिम", "connections": ["Uttam Nagar East", "Janak Puri East"], "index": 14 },
+        { "name": "Janak Puri East / जनकपुरी पूर्व", "connections": ["Janak Puri West", "Tilak Nagar"], "index": 15 },
+        { "name": "Tilak Nagar / तिलक नगर", "connections": ["Janak Puri East", "Subhash Nagar"], "index": 16 },
+        { "name": "Subhash Nagar / सुभाष नगर", "connections": ["Tilak Nagar", "Tagore Garden"], "index": 17 },
+        { "name": "Tagore Garden / टैगोर गार्ड", "connections": ["Subhash Nagar", "Rajouri Garden"], "index": 18 },
+        { "name": "Rajouri Garden / राजौरी गार्डन", "connections": ["Tagore Garden", "Ramesh Nagar"], "index": 19 },
+        { "name": "Ramesh Nagar / रमेश नगर", "connections": ["Rajouri Garden", "Moti Nagar"], "index": 20 },
+        { "name": "Moti Nagar / मोती नगर", "connections": ["Ramesh Nagar", "Kirti Nagar"], "index": 21 },
+        { "name": "Kirti Nagar / कीर्ति नगर", "connections": ["Moti Nagar", "Shadipur"], "index": 22 },
+        { "name": "Shadipur / शादीपुर", "connections": ["Kirti Nagar", "Patel Nagar"], "index": 23 },
+        { "name": "Patel Nagar / पटेल नगर", "connections": ["Shadipur", "Rajendra Place"], "index": 24 },
+        { "name": "Rajendra Place / राजेंद्र प्लेस", "connections": ["Patel Nagar", "Karol Bagh"], "index": 25 },
+        { "name": "Karol Bagh / करोल बाग", "connections": ["Rajendra Place", "Jhandewalan"], "index": 26 },
+        { "name": "Jhandewalan / झंडेवालान", "connections": ["Karol Bagh", "Ramakrishna Ashram Marg"], "index": 27 },
+        { "name": "Ramakrishna Ashram Marg / रामकृष्ण आश्रम मार्ग", "connections": ["Jhandewalan", "Rajiv Chowk"], "index": 28 },
+        { "name": "Rajiv Chowk / राजीव चौक", "connections": ["Ramakrishna Ashram Marg", "Barakhamba Road"], "index": 29 },
+        { "name": "Barakhamba Road / बाराखंबा रोड", "connections": ["Rajiv Chowk", "Mandi House"], "index": 30 },
+        { "name": "Mandi House / मंडी हाउस", "connections": ["Barakhamba Road", "Supreme Court"], "index": 31 },
+        { "name": "Supreme Court / सुप्रीम कोर्ट", "connections": ["Mandi House", "Indraprastha"], "index": 32 },
+        { "name": "Indraprastha / इंद्रप्रस्थ", "connections": ["Supreme Court", "Yamuna Bank"], "index": 33 },
+        { "name": "Yamuna Bank / यमुना बैंक", "connections": ["Indraprastha", "Karkarduma"], "index": 34 },
+        { "name": "Karkarduma / करकरदूमा", "connections": ["Yamuna Bank", "Anand Vihar ISBT"], "index": 35 },
+        { "name": "Anand Vihar ISBT / आनंद विहार आईएसबीटी", "connections": ["Karkarduma", "Kaushambi"], "index": 36 },
+        { "name": "Kaushambi / कौशाम्बी", "connections": ["Anand Vihar ISBT", "Vaishali"], "index": 37 },
+        { "name": "Vaishali / वैशाली", "connections": ["Kaushambi", "Blue Line"], "index": 38 }
+      ],
+    "interchange": [
+        { "station": "Dwarka Sector  21", "lines": ["Airport Express", "Blue Line"] },
+        { "station": "Dwarka", "lines": ["Grey Line", "Blue Line"] },
+        { "station": "Janak Puri West", "lines": ["Magenta Line", "Blue Line"] },
+        { "station": "Rajouri Garden", "lines": ["Pink Line", "Blue Line"] },
+        { "station": "Kirti Nagar", "lines": ["Green Line", "Blue Line"] },
+        { "station": "Rajiv Chowk", "lines": ["Yellow Line", "Blue Line"] },
+        { "station": "Mandi House", "lines": ["Violet Line", "Blue Line"] },
+        { "station": "Yamuna Bank", "lines": ["Blue Line"] },
+        { "station": "Karkarduma", "lines": ["Pink Line", "Blue Line"] },
+        { "station": "Anand Vihar ISBT", "lines": ["Pink Line", "Blue Line"] }
+      ]
+    },
+     {
+      "name": "Green Line",
+      "route": "Kirti Nagar ←→ Brig. Hoshiar Singh",
+      "linecolor":"Green",
+     "station": [
+        { "name": "Kirti Nagar / कीर्ति नगर", "connections": ["Moti Nagar", "Satguru Ram Singh Marg"], "index": 1 },
+        { "name": "Satguru Ram Singh Marg / सतगुरु राम सिंह मार्ग", "connections": ["Kirti Nagar", "Inderlok"], "index": 2 },
+        { "name": "Inderlok / इंद्रलोक", "connections": ["Satguru Ram Singh Marg", "Ashok Park Main"], "index": 3 },
+        { "name": "Ashok Park Main", "connections": ["Inderlok", "Punjabi Bagh"], "index": 4 },
+        { "name": "Punjabi Bagh / पंजाबी बाग", "connections": ["Ashok Park Main", "Punjabi Bagh West"], "index": 5 },
+        { "name": "Punjabi Bagh West / पंजाबी बाग पश्चिम", "connections": ["Punjabi Bagh", "Shivaji Park"], "index": 6 },
+        { "name": "Shivaji Park / शिवाजी पार्क", "connections": ["Punjabi Bagh West", "Madipur"], "index": 7 },
+        { "name": "Madipur / मादीपुर", "connections": ["Shivaji Park", "Paschim Vihar East"], "index": 8 },
+        { "name": "Paschim Vihar East / पश्चिम विहार पूर्व", "connections": ["Madipur", "Paschim Vihar West"], "index": 9 },
+        { "name": "Paschim Vihar West / पश्चिम विहार पश्चिम", "connections": ["Paschim Vihar East", "Peeragarhi"], "index": 10 },
+        { "name": "Peeragarhi / पीरागढ़ी", "connections": ["Paschim Vihar West", "Udyog Nagar"], "index": 11 },
+        { "name": "Udyog Nagar / उद्योग नगर", "connections": ["Peeragarhi", "Maharaja Surajmal Stadium"], "index": 12 },
+        { "name": "Maharaja Surajmal Stadium / महाराजा सूरजमल स्टेडियम", "connections": ["Udyog Nagar", "Nangloi"], "index": 13 },
+        { "name": "Nangloi / नांगलोई", "connections": ["Maharaja Surajmal Stadium", "Nangloi Railway station"], "index": 14 },
+        { "name": "Nangloi Railway station / नांगलोई रेलवे स्टेशन", "connections": ["Nangloi", "Rajdhani Park"], "index": 15 },
+        { "name": "Rajdhani Park / राजधानी पार्क", "connections": ["Nangloi Railway ", "Mundka"], "index": 16 },
+        { "name": "Mundka / मुंडका", "connections": ["Rajdhani Park", "Mundka Industrial Area"], "index": 17 },
+        { "name": "Mundka Industrial Area (MIA) / मुंडका औद्योगिक क्षेत्र (एमआईए)", "connections": ["Mundka", "Ghevra Metro station"], "index": 18 },
+        { "name": "Ghevra Metro station / घेवड़ा मेट्रो स्टेशन", "connections": ["Mundka Industrial Area", "Tikri Kalan"], "index": 19 },
+        { "name": "Tikri Kalan / तिकरी कलां", "connections": ["Ghevra Metro ", "Tikri Border"], "index": 20 },
+        { "name": "Tikri Border / तिकरी बॉर्डर", "connections": ["Tikri Kalan", "Pandit Shree Ram Sharma"], "index": 21 },
+        { "name": "Pandit Shree Ram Sharma / पंडित श्री राम शर्मा", "connections": ["Tikri Border", "Bahadurgarh City"], "index": 22 },
+        { "name": "Bahadurgarh City / बहादुरगढ़ सिटी", "connections": ["Pandit Shree Ram Sharma", "Brig. Hoshiar Singh"], "index": 23 },
+        { "name": "Brig. Hoshiar Singh / ब्रिगेडियर होशियार सिंह", "connections": ["Bahadurgarh City"], "index": 24 }
+      ],
+    "interchange": [
+        { "station": "Kirti Nagar", "lines": ["Blue Line", "Green Line"] },
+        { "station": "Inderlok", "lines": ["Red Line", "Green Line"] },
+        { "station": "Ashok Park Main", "lines": [ "Green Line"] },
+        { "station": "Paschim Vihar West", "lines": ["Blue Line", "Green Line"] }
+      ]
+    },
+     {
+      "name": "Violet Line",
+      "route": "Kashmere Gate ←→ Raja Nahar Singh",
+      "linecolor":"Violet",
+     "station": [
+        { "name": "Kashmere Gate / कश्मीरी गेट", "connections": ["Lal Quila"], "index": 1 },
+        { "name": "Lal Quila / लाल क़िला", "connections": ["Kashmere Gate", "Jama Masjid"], "index": 2 },
+        { "name": "Jama Masjid / जामा मस्जिद", "connections": ["Lal Quila", "Delhi Gate"], "index": 3 },
+        { "name": "Delhi Gate / दिल्ली गेट", "connections": ["Jama Masjid", "ITO"], "index": 4 },
+        { "name": "ITO / आईटीओ", "connections": ["Delhi Gate", "Mandi House"], "index": 5 },
+        { "name": "Mandi House / मंडी हाउस", "connections": ["ITO", "Janpath"], "index": 6 },
+        { "name": "Janpath / जनपथ", "connections": ["Mandi House", "Central Secretariat"], "index": 7 },
+        { "name": "Central Secretariat / केंद्रीय सचिवालय", "connections": ["Janpath", "Khan Market"], "index": 8 },
+        { "name": "Khan Market / ख़ान मार्केट", "connections": ["Central Secretariat", "JLN Stadium"], "index": 9 },
+        { "name": "JLN Stadium / जवाहरलाल नेहरू स्टेडियम", "connections": ["Khan Market", "Jangpura"], "index": 10 },
+        { "name": "Jangpura / जंगपुरा", "connections": ["JLN Stadium", "Lajpat Nagar"], "index": 11 },
+        { "name": "Lajpat Nagar / लाजपत नगर", "connections": ["Jangpura", "Moolchand"], "index": 12 },
+        { "name": "Moolchand / मूलचंद", "connections": ["Lajpat Nagar", "Kailash Colony"], "index": 13 },
+        { "name": "Kailash Colony / कैलाश कॉलोनी", "connections": ["Moolchand", "Nehru Place"], "index": 14 },
+        { "name": "Nehru Place / नेहरू प्लेस", "connections": ["Kailash Colony", "Kalkaji Mandir"], "index": 15 },
+        { "name": "Kalkaji Mandir / कालकाजी मंदिर", "connections": ["Nehru Place", "Govindpuri"], "index": 16 },
+        { "name": "Govindpuri / गोविन्दपुरी", "connections": ["Kalkaji Mandir", "Harkesh Nagar Okhla"], "index": 17 },
+        { "name": "Harkesh Nagar Okhla / हरकेश नगर ओखला", "connections": ["Govindpuri", "Jasola-Apollo"], "index": 18 },
+        { "name": "Jasola-Apollo / जसोला-अपोलो", "connections": ["Harkesh Nagar Okhla", "Sarita Vihar"], "index": 19 },
+        { "name": "Sarita Vihar / सरिता विहार", "connections": ["Jasola-Apollo", "Mohan Estate"], "index": 20 },
+        { "name": "Mohan Estate / मोहन एस्टेट", "connections": ["Sarita Vihar", "Tughlakabad"], "index": 21 },
+        { "name": "Tughlakabad staion / तुगलकाबाद स्टेशन", "connections": ["Mohan Estate", "Badarpur Border"], "index": 22 },
+        { "name": "Badarpur Border / बदरपुर बॉर्डर", "connections": ["Tughlakabad station", "Sarai"], "index": 23 },
+        { "name": "Sarai / सराय", "connections": ["Badarpur Border", "NHPC Chowk"], "index": 24 },
+        { "name": "NHPC Chowk / एनएचपीसी चौक", "connections": ["Sarai", "Mewala Maharajpur"], "index": 25 },
+        { "name": "Mewala Maharajpur / मेवाला महाराजपुर", "connections": ["NHPC Chowk", "Sector-28"], "index": 26 },
+        { "name": "Sector-28 / सेक्टर-28", "connections": ["Mewala Maharajpur", "Badkal Mor"], "index": 27 },
+        { "name": "Badkal Mor / बदकल मोर", "connections": ["Sector-28", "Old Faridabad"], "index": 28 },
+        { "name": "Old Faridabad / पुराना फरीदाबाद", "connections": ["Badkal Mor", "Neelam Chowk Ajronda"], "index": 29 },
+        { "name": "Neelam Chowk Ajronda / नीलम चौक अज्रोंडा", "connections": ["Old Faridabad", "Bata Chowk"], "index": 30 },
+        { "name": "Bata Chowk / बाटा चौक", "connections": ["Neelam Chowk Ajronda", "Escorts Mujesar"], "index": 31 },
+        { "name": "Escorts Mujesar / एस्कॉर्ट्स मुजेसर", "connections": ["Bata Chowk", "Sant Surdas (Sihi)"], "index": 32 },
+        { "name": "Sant Surdas (Sihi) / संत सूरदास (सीही)", "connections": ["Escorts Mujesar", "Raja Nahar Singh"], "index": 33 },
+        { "name": "Raja Nahar Singh / राजा नहर सिंह", "connections": ["Sant Surdas (Sihi)"], "index": 34 }
+      ],
+    "interchange": [
+        { "station": "Kashmere Gate", "lines": ["Red Line", "Yellow Line", "Violet Line"] },
+        { "station": "Mandi House", "lines": ["Blue Line", "Violet Line"] },
+        { "station": "Central Secretariat", "lines": ["Yellow Line", "Violet Line"] },
+        { "station": "Lajpat Nagar", "lines": ["Pink Line", "Violet Line"] },
+        { "station": "Kalkaji Mandir", "lines": ["Magenta Line", "Violet Line"] }
+      ]
+    },
+     {
+      "name": "Pink Line",
+      "route": "Majlis Park ←→ Shiv Vihar",
+      "linecolor":"pink",
+     "station": [
+        { "name": "Majlis Park / मजलिस पार्क", "connections": ["Azadpur"], "index": 1 },
+        { "name": "Azadpur / आजादपुर", "connections": ["Majlis Park", "Shalimar Bagh"], "interchange": ["Yellow Line"], "index": 2 },
+        { "name": "Shalimar Bagh / शालीमार बाग", "connections": ["Azadpur", "Netaji Subhash Place"], "index": 3 },
+        { "name": "Netaji Subhash Place / नेताजी सुभाष प्लेस", "connections": ["Shalimar Bagh", "Shakurpur"], "interchange": ["Red Line"], "index": 4 },
+        { "name": "Shakurpur / शाकुरपुर", "connections": ["Netaji Subhash Place", "Punjabi Bagh West"], "index": 5 },
+        { "name": "Punjabi Bagh West / पंजाबी बाग (पश्चिम)", "connections": ["Shakurpur", "ESI-Basaidarapur"], "interchange": ["Green Line"], "index": 6 },
+        { "name": "ESI-Basaidarapur / ईएसआई-बसैदरापुर", "connections": ["Punjabi Bagh West", "Rajouri Garden"], "index": 7 },
+        { "name": "Rajouri Garden / राजौरी गार्डन", "connections": ["ESI-Basaidarapur", "Mayapuri"], "interchange": ["Blue Line"], "index": 8 },
+        { "name": "Mayapuri / मायापुरी", "connections": ["Rajouri Garden", "Naraina Vihar"], "index": 9 },
+        { "name": "Naraina Vihar / नारायणा विहार", "connections": ["Mayapuri", "Delhi Cantt."], "index": 10 },
+        { "name": "Delhi Cantt. / दिल्ली कैंट", "connections": ["Naraina Vihar", "Durgabai Deshmukh South Campus"], "index": 11 },
+        { "name": "Durgabai Deshmukh South Campus / दुर्गाबाई देशमुख साउथ कैम्पस", "connections": ["Delhi Cantt.", "Sir M. Vishweshwaraiah Moti Bagh"], "interchange": ["Airport Express Line"], "index": 12 },
+        { "name": "Sir M. Vishweshwaraiah Moti Bagh / सर म. विश्वेश्वरैया मोती बाग", "connections": ["Durgabai Deshmukh South Campus", "Bhikaji Cama Place"], "index": 13 },
+        { "name": "Bhikaji Cama Place / भीखाजी कामा प्लेस", "connections": ["Sir M. Vishweshwaraiah Moti Bagh", "Sarojini Nagar"], "index": 14 },
+        { "name": "Sarojini Nagar / सरोजिनी नगर", "connections": ["Bhikaji Cama Place", "Dilli Haat  INA"], "index": 15 },
+        { "name": "Dilli Haat  INA / दिल्ली हाट  आईएनए", "connections": ["Sarojini Nagar", "South Extension"], "interchange": ["Yellow Line"], "index": 16 },
+        { "name": "South Extension / साउथ एक्सटेंशन", "connections": ["Dilli Haat  INA", "Lajpat Nagar"], "index": 17 },
+        { "name": "Lajpat Nagar / लाजपत नगर", "connections": ["South Extension", "Vinobapuri"], "interchange": ["Violet Line"], "index": 18 },
+        { "name": "Vinobapuri / विनोबापुरी", "connections": ["Lajpat Nagar", "Ashram"], "index": 19 },
+        { "name": "Ashram / आश्रम", "connections": ["Vinobapuri", "Sarai Kale Khan  Nizamuddin"], "index": 20 },
+        { "name": "Sarai Kale Khan  Nizamuddin / सराय काले खान  निजामुद्दीन", "connections": ["Ashram", "Mayur Vihar - I"], "index": 21 },
+        { "name": "Mayur Vihar - I / मयूर विहार -I", "connections": ["Sarai Kale Khan  Nizamuddin", "Mayur Vihar Pocket-1"], "interchange": ["Blue Line"], "index": 22 },
+        { "name": "Mayur Vihar Pocket-1 / मयूर विहार पॉकेट-1", "connections": ["Mayur Vihar - I", "Trilokpuri-Sanjay Lake"], "index": 23 },
+        { "name": "Trilokpuri-Sanjay Lake / त्रिलोकपुरी-संजय झील", "connections": ["Mayur Vihar Pocket-1", "East Vinod Nagar-Mayur Vihar - II"], "index": 24 },
+        { "name": "East Vinod Nagar-Mayur Vihar - II / ईस्ट विनोद नगर-मयूर विहार -II", "connections": ["Trilokpuri-Sanjay Lake", "Mandawali  West Vinod Nagar"], "index": 25 },
+        { "name": "Mandawali  West Vinod Nagar / मंडावली  वेस्ट विनोद नगर", "connections": ["East Vinod Nagar-Mayur Vihar - II", "I.P. Extension"], "index": 26 },
+        { "name": "I.P. Extension / आई.पी. एक्सटेंशन", "connections": ["Mandawali  West Vinod Nagar", "Anand Vihar ISBT"], "index": 27 },
+        { "name": "Anand Vihar ISBT / आनंद विहार आईएसबीटी", "connections": ["I.P. Extension", "Karkarduma"], "interchange": ["Blue Line"], "index": 28 },
+        { "name": "Karkarduma / करकरदूमा", "connections": ["Anand Vihar ISBT", "Karkarduma Court"], "interchange": ["Blue Line"], "index": 29 },
+        { "name": "Karkarduma Court / करकरदूमा कोर्ट", "connections": ["Karkarduma", "Krishna Nagar"], "index": 30 },
+        { "name": "Krishna Nagar / कृष्णा नगर", "connections": ["Karkarduma Court", "East Azad Nagar"], "index": 31 },
+        { "name": "East Azad Nagar / ईस्ट आजाद नगर", "connections": ["Krishna Nagar", "Welcome"], "index": 32 },
+        { "name": "Welcome / वेलकम", "connections": ["East Azad Nagar", "Jafrabad"], "interchange": ["Red Line"], "index": 33 },
+        { "name": "Jafrabad / जाफराबाद", "connections": ["Welcome", "Maujpur-Babarpur"], "index": 34 },
+        { "name": "Maujpur-Babarpur / मौजपुर-बाबरपुर", "connections": ["Jafrabad", "Gokulpuri"], "index": 35 },
+        { "name": "Gokulpuri / गोकुलपुरी", "connections": ["Maujpur-Babarpur", "Johri Enclave"], "index": 36 },
+        { "name": "Johri Enclave / जोहरी एनक्लेव", "connections": ["Gokulpuri", "Shiv Vihar"], "index": 37 },
+        { "name": "Shiv Vihar / शिव विहार", "connections": ["Johri Enclave"], "index": 38 }
+      ],
+    "interchange": [
+        { "station": "Azadpur", "lines": ["Yellow Line"] },
+        { "station": "Netaji Subhash Place", "lines": ["Red Line"] },
+        { "station": "Punjabi Bagh West", "lines": ["Green Line"] },
+        { "station": "Rajouri Garden", "lines": ["Blue Line"] },
+        { "station": "Durgabai Deshmukh South Campus", "lines": ["Airport Express Line"] },
+        { "station": "Dilli Haat  INA", "lines": ["Yellow Line"] },
+        { "station": "Lajpat Nagar", "lines": ["Violet Line"] },
+        { "station": "Mayur Vihar - I", "lines": ["Blue Line"] },
+        { "station": "Anand Vihar ISBT", "lines": ["Blue Line"] },
+        { "station": "Karkarduma", "lines": ["Blue Line"] },
+        { "station": "Welcome", "lines": ["Red Line"] }
+      ]
+    },
+     {
+      "name": "Magenta Line",
+      "route": "Janakpuri West ←→ Botanical Garden",
+      "linecolor":"magenta",
+     "station": [
+        { "name": "Janakpuri West / जनकपुरी पश्चिम", "connections": ["Dabri Mor"], "interchange": ["Blue Line"], "index": 1 },
+        { "name": "Dabri Mor  Janakpuri South / दाबरी मोर  जनकपुरी दक्षिण", "connections": ["Janakpuri West", "Dashrathpuri"], "index": 2 },
+        { "name": "Dashrathpuri / दशरथपुरी", "connections": ["Dabri Mor  Janakpuri South", "Palam"], "index": 3 },
+        { "name": "Palam / पालम", "connections": ["Dashrathpuri", "Sadar Bazar Cantonment"], "index": 4 },
+        { "name": "Sadar Bazar Cantonment / सदर बाजार कैंटोनमेंट", "connections": ["Palam", "Terminal 1-IGI Airport"], "index": 5 },
+        { "name": "Terminal 1-IGI Airport / टर्मिनल 1-आईजीआई हवाई अड्डा", "connections": ["Sadar Bazar Cantonment", "Shankar Vihar"], "index": 6 },
+        { "name": "Shankar Vihar / शंकर विहार", "connections": ["Terminal 1-IGI Airport", "Vasant Vihar"], "index": 7 },
+        { "name": "Vasant Vihar / वसंत विहार", "connections": ["Shankar Vihar", "Munirka"], "index": 8 },
+        { "name": "Munirka / मुनिरका", "connections": ["Vasant Vihar", "R.K. Puram"], "index": 9 },
+        { "name": "R.K. Puram / आर.के.पुरम", "connections": ["Munirka", "IIT"], "index": 10 },
+        { "name": "IIT / आईआईटी", "connections": ["R.K. Puram", "Hauz Khas"], "index": 11 },
+        { "name": "Hauz Khas / हौज खास", "connections": ["IIT", "Panchsheel Park"], "interchange": ["Yellow Line"], "index": 12 },
+        { "name": "Panchsheel Park / पंचशील पार्क", "connections": ["Hauz Khas", "Chirag Delhi"], "index": 13 },
+        { "name": "Chirag Delhi / चिराग दिल्ली", "connections": ["Panchsheel Park", "Greater Kailash"], "index": 14 },
+        { "name": "Greater Kailash / ग्रेटर कैलाश", "connections": ["Chirag Delhi", "Nehru Enclave"], "index": 15 },
+        { "name": "Nehru Enclave / नेहरू एन्क्लेव", "connections": ["Greater Kailash", "Kalkaji Mandir"], "index": 16 },
+        { "name": "Kalkaji Mandir / कालकाजी मंदिर", "connections": ["Nehru Enclave", "Okhla NSIC"], "interchange": ["Violet Line"], "index": 17 },
+        { "name": "Okhla NSIC / ओखला एनएसआईसी", "connections": ["Kalkaji Mandir", "Sukhdev Vihar"], "index": 18 },
+        { "name": "Sukhdev Vihar / सुखदेव विहार", "connections": ["Okhla NSIC", "Jamia Milia Islamia"], "index": 19 },
+        { "name": "Jamia Milia Islamia / जामिया मिलिया इस्लामिया", "connections": ["Sukhdev Vihar", "Okhla Vihar"], "index": 20 },
+        { "name": "Okhla Vihar / ओखला विहार", "connections": ["Jamia Milia Islamia", "Jasola Vihar Shaheen Bagh"], "index": 21 },
+        { "name": "Jasola Vihar Shaheen Bagh / जसोला विहार शाहीन बाग", "connections": ["Okhla Vihar", "Kalindi Kunj"], "index": 22 },
+        { "name": "Kalindi Kunj / कालिंदी कुंज", "connections": ["Jasola Vihar Shaheen Bagh", "Okhla Bird Sanctuary"], "index": 23 },
+        { "name": "Okhla Bird Sanctuary / ओखला बर्ड सैंक्चुआरी", "connections": ["Kalindi Kunj", "Botanical Garden"], "index": 24 },
+        { "name": "Botanical Garden / बोटैनिकल गार्डन", "connections": ["Okhla Bird Sanctuary"], "interchange": ["Blue Line"], "index": 25 }
+      ],
+    "interchange": [
+        { "station": "Janakpuri West", "lines": ["Blue Line"] },
+        { "station": "Hauz Khas", "lines": ["Yellow Line"] },
+        { "station": "Kalkaji Mandir", "lines": ["Violet Line"] },
+        { "station": "Botanical Garden", "lines": ["Blue Line"] }
+      ]
+    },
+     {
+      "name": "Grey Line",
+      "route": "Dwarka ←→ Dhansa Bus Stand",
+      "linecolor":"grey",
+     "station": [
+        { "name": "Dwarka / द्वारका", "connections": ["Nangli"], "interchange": ["Blue Line"], "index": 1 },
+        { "name": "Nangli / नंगली", "connections": ["Dwarka", "Najafgarh"], "index": 2 },
+        { "name": "Najafgarh / नजफगढ़", "connections": ["Nangli", "Dhansa Bus Stand"], "index": 3 },
+        { "name": "Dhansa Bus Stand / धानसा बस स्टैंड", "connections": ["Najafgarh"], "index": 4 }
+      ],
+    "interchange": [
+        { "station": "Dwarka", "lines": ["Blue Line"] }
+      ]
+    },
+     {
+      "name": "Airport Express  Orange Line",
+      "route": "New Delhi ←→ Dwarka Sector-21",
+      "linecolor":"orange",
+     "station": [
+        { 
+          "name": "New Delhi / नई दिल्ली", 
+          "connections": ["Shivaji Stadium"], 
+          "interchange": ["Yellow Line"], 
+          "index": 1 
+        },
+        { 
+          "name": "Shivaji Stadium / शिवाजी स्टेडियम", 
+          "connections": ["New Delhi", "Dhaula Kuan"], 
+          "index": 2 
+        },
+        { 
+          "name": "Dhaula Kuan / धौला कुआँ", 
+          "connections": ["Shivaji Stadium", "Delhi Aerocity"], 
+          "interchange": ["Pink Line (via FOB to Durgabai Deshmukh South Campus)"], 
+          "index": 3 
+        },
+        { 
+          "name": "Delhi Aerocity / दिल्ली एरोसिटी", 
+          "connections": ["Dhaula Kuan", "Airport (T-3)"], 
+          "index": 4 
+        },
+        { 
+          "name": "Airport (T-3) / हवाई अड्डा (T-3)", 
+          "connections": ["Delhi Aerocity", "Dwarka Sector-21"], 
+          "index": 5 
+        },
+        { 
+          "name": "Dwarka Sector-21 / द्वारका सेक्टर  21", 
+          "connections": ["Airport (T-3)"], 
+          "interchange": ["Blue Line"], 
+          "index": 6 
+        }
+      ],
+    "interchange": [
+        { "station": "New Delhi", "lines": ["Yellow Line"] },
+        { "station": "Dhaula Kuan", "lines": ["Pink Line"] },
+        { "station": "Dwarka Sector-21", "lines": ["Blue Line"] }
+      ]
+    },
+     {
+      "name": "Rapid Metro  RMGL",
+      "route": "Sector 55-56 ←→ Phase-3",
+      "linecolor":"cyan",
+     "station": [
+        { 
+          "name": "Sector 55-56 / सेक्टर 55-56", 
+          "connections": ["Sector-54 Chowk"], 
+          "index": 1 
+        },
+        { 
+          "name": "Sector-54 Chowk / सेक्टर-54 चौक", 
+          "connections": ["Sector 55-56", "Sector-53-54"], 
+          "index": 2 
+        },
+        { 
+          "name": "Sector-53-54 / सेक्टर-53-54", 
+          "connections": ["Sector-54 Chowk", "Sector-42-43"], 
+          "index": 3 
+        },
+        { 
+          "name": "Sector-42-43 / सेक्टर-42-43", 
+          "connections": ["Sector-53-54", "Phase-1"], 
+          "index": 4 
+        },
+        { 
+          "name": "Phase-1 / फेज-1", 
+          "connections": ["Sector-42-43", "Sikanderpur"], 
+          "index": 5 
+        },
+        { 
+          "name": "Sikanderpur / सिकंदरपुर", 
+          "connections": ["Phase-1", "Phase-2"], 
+          "interchange": ["Yellow Line"], 
+          "index": 6 
+        },
+        { 
+          "name": "Phase-2 / फेज-2", 
+          "connections": ["Sikanderpur", "Belvedere Towers"], 
+          "index": 7 
+        },
+        { 
+          "name": "Belvedere Towers / बेलवेडियर टावर्स", 
+          "connections": ["Phase-2", "Cyber City"], 
+          "index": 8 
+        },
+        { 
+          "name": "Cyber City / साइबर सिटी", 
+          "connections": ["Belvedere Towers", "Moulsari Avenue"], 
+          "index": 9 
+        },
+        { 
+          "name": "Moulsari Avenue / मौलसरी एवेन्यू", 
+          "connections": ["Cyber City", "Phase-3"], 
+          "index": 10 
+        },
+        { 
+          "name": "Phase-3 / फेज-3", 
+          "connections": ["Moulsari Avenue"], 
+          "index": 11 
+        }
+      ],
+    "interchange": [
+        { "station": "Sikanderpur", "lines": ["Yellow Line"] }
+      ]
+    }
+    
+  ]
+}
+ 

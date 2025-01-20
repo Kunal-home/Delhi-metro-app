@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.3",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "heapq": "^0.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4",
+    "react-router-dom": "^6.28.0",
+    "vite": "^6.0.1"
+  }
+}

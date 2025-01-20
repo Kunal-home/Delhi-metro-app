@@ -1,0 +1,11 @@
+.container{
+  
+  margin-top: 30px;
+  border:2px solid whitesmoke;padding: 30px 30px;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+  width: 50%;
+  margin: auto ;
+
+}
