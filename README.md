@@ -60,6 +60,9 @@ Open your browser and navigate to http://localhost:3000.
 
 
 then to start backend start npm server.js
+
 and
+
+
 then npm distanceserver.js on new terminal
 
