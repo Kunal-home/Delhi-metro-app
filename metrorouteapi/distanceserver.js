@@ -20,7 +20,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions)); // Enable CORS for all routes
 
-const GOOGLE_API_KEY = "AIzaSyAos_Obv5Z5C21Wuw4FX7pM7TNOYD3pVMo";
+const GOOGLE_API_KEY = "your api key";
 
 app.get("/api/fare-rates", async (req, res) => {
     console.log("Received request for /api/fare-rates");
